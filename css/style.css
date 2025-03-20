@@ -142,3 +142,15 @@ a.text-link {
         position: static;
     }
 }
+
+@media(max-width: 700px) {
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    ul li {
+        min-width: 175px;
+    }
+}
